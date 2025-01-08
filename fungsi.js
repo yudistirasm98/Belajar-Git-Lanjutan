@@ -7,3 +7,8 @@ console.log(sum(2,2));
 
 const min = (a, b) => a - b;
 console.log(min(1,2));
+
+//perkalian
+
+const max = (a, b) => a * b;
+console.log(max(2,2));
