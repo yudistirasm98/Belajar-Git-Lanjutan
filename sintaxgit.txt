@@ -1,0 +1,36 @@
+Perintah-perintah di Git
+diurutkan berdasarkan yang sering digunakan di dunia coding
+
+Create = ini adalah inisialisasi awal dimana kita melakukan VCS
+- git init = menginisialisasi projek sendiri
+- git clone = mengambil projek opensource
+
+Make a Change = Melakukan perubahan
+- git add <file>
+- git add .
+- git commit -m "Message"
+- git reset <file>
+- git reset --hard
+- git revert
+
+Observe = Melakukan pengecekan
+- git status
+- git diff
+- git show
+- git log
+
+Sync
+- git remote add origin <github>
+- git remote -v
+- git push origin master
+- git pull
+- git fetch
+
+Branch
+
+-git branch
+-git checkout
+-git marge
+-git tag
+    git tag <v1>
+    git push --tag
